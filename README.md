@@ -23,4 +23,4 @@
 
 ## Инструкции по запуску
 
-Найдите и запустите файл kafe.exe по пути: "tr24_kafe_tomilov\kafe\kafe\bin\Debug\net8.0-windows\kafe.exe"
+Найдите и запустите файл kafe.exe по пути: "**tr24_kafe_tomilov\kafe\kafe\bin\Debug\net8.0-windows\kafe.exe**"
