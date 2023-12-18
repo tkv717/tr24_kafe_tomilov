@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cfd063289b0444ae9d387d38e6ca2128" Name="Diagram1">
+        <EntityTypeShape EntityType="tr24_kafe_tomilovModel.Items_type" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tr24_kafe_tomilovModel.MenuItems" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tr24_kafe_tomilovModel.Orders" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tr24_kafe_tomilovModel.Roles" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tr24_kafe_tomilovModel.Users" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tr24_kafe_tomilovModel.Shifts" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="tr24_kafe_tomilovModel.FK_MenuItems_Items_type" ManuallyRouted="false" />
+        <AssociationConnector Association="tr24_kafe_tomilovModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="tr24_kafe_tomilovModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="tr24_kafe_tomilovModel.FK_Shifts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="tr24_kafe_tomilovModel.MenuItems_has_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
