@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34330.188
+VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafe", "kafe\kafe.csproj", "{639E5ED3-E992-4CF8-9843-DC2268E281FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafe", "kafe.csproj", "{0AAE0226-9150-4CC8-912D-DECAD482CFFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{639E5ED3-E992-4CF8-9843-DC2268E281FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{639E5ED3-E992-4CF8-9843-DC2268E281FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{639E5ED3-E992-4CF8-9843-DC2268E281FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{639E5ED3-E992-4CF8-9843-DC2268E281FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAE0226-9150-4CC8-912D-DECAD482CFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAE0226-9150-4CC8-912D-DECAD482CFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAE0226-9150-4CC8-912D-DECAD482CFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAE0226-9150-4CC8-912D-DECAD482CFFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4BAA2B6F-A5C9-4E72-A725-601E0445047A}
+		SolutionGuid = {DA388C22-B3F4-454C-AB58-EADDC12C2C28}
 	EndGlobalSection
 EndGlobal
