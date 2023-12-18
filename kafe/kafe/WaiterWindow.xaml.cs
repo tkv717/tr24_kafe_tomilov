@@ -23,14 +23,12 @@ namespace kafe
 
         private void CreateOrderButton_Click(object sender, RoutedEventArgs e)
         {
-            // Добавьте код для обработки нажатия на кнопку "Создать новый заказ"
-            // Например, откройте новое окно или выполните соответствующие действия.
+            // код для обработки нажатия на кнопку "Создать новый заказ"
         }
 
         private void ChangeOrderStatusButton_Click(object sender, RoutedEventArgs e)
         {
-            // Добавьте код для обработки нажатия на кнопку "Изменить статус заказа"
-            // Например, откройте новое окно или выполните соответствующие действия.
+            // код для обработки нажатия на кнопку "Изменить статус заказа"
         }
 
         private void BackToMain_Click(object sender, RoutedEventArgs e)

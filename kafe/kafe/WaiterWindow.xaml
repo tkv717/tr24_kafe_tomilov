@@ -8,13 +8,13 @@
             <TextBlock Text="Официант" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center"/>
         </StackPanel>
 
-        <!-- Добавьте элементы интерфейса для функциональности официанта -->
+        <!-- элементы интерфейса для функциональности официанта -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <!-- Пример: кнопка для создания нового заказа -->
             <Button Content="Создать новый заказ" Height="30" Width="200" Margin="0,10,0,0" Click="CreateOrderButton_Click"/>
-            <!-- Пример: кнопка для изменения статуса заказа -->
+            <!-- кнопка для изменения статуса заказа -->
             <Button Content="Изменить статус заказа" Height="30" Width="200" Margin="0,10,0,0" Click="ChangeOrderStatusButton_Click"/>
-            <!-- Кнопка для возврата на главную -->
+            <!-- для возврата на главную -->
             <Button Content="На главную" Height="30" Width="100" Margin="0,10,0,0" Click="BackToMain_Click"/>
         </StackPanel>
     </Grid>

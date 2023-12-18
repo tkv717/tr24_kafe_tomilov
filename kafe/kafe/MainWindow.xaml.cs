@@ -21,7 +21,7 @@ namespace kafe
 
         private void AdminButton_Click(object sender, RoutedEventArgs e)
         {
-            // Добавьте код для перехода на экран администратора
+            // код для перехода на экран администратора
             AdminWindow adminWindow = new AdminWindow();
             adminWindow.Show();
             this.Close();
@@ -29,7 +29,7 @@ namespace kafe
 
         private void ChefButton_Click(object sender, RoutedEventArgs e)
         {
-            // Добавьте код для перехода на экран повара
+            // код для перехода на экран повара
             ChefWindow chefWindow = new ChefWindow();
             chefWindow.Show();
             this.Close();
@@ -37,7 +37,7 @@ namespace kafe
 
         private void WaiterButton_Click(object sender, RoutedEventArgs e)
         {
-            // Добавьте код для перехода на экран официанта
+            // код для перехода на экран официанта
             WaiterWindow waiterWindow = new WaiterWindow();
             waiterWindow.Show();
             this.Close();
