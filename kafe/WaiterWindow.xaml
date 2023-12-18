@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Официант" Height="400" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <!-- Логотип и заголовок -->
+        <!-- заголовок -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
             <TextBlock Text="Официант" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center"/>
         </StackPanel>
