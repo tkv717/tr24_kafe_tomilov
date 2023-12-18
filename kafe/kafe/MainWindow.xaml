@@ -1,0 +1,18 @@
+﻿<Window x:Class="kafe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Кафе" Height="400" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <!-- Логотип и заголовок -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
+            <TextBlock Text="Кафе" FontSize="16" FontWeight="Bold"/>
+        </StackPanel>
+
+        <!-- Кнопки для перехода между ролями -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Администратор" Height="30" Width="200" Margin="0,10,0,0" Click="AdminButton_Click"/>
+            <Button Content="Повар" Height="30" Width="200" Margin="0,10,0,0" Click="ChefButton_Click"/>
+            <Button Content="Официант" Height="30" Width="200" Margin="0,10,0,0" Click="WaiterButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
