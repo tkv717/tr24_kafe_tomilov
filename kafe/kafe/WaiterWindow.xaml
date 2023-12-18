@@ -10,7 +10,7 @@
 
         <!-- элементы интерфейса для функциональности официанта -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <!-- Пример: кнопка для создания нового заказа -->
+            <!-- кнопка для создания нового заказа -->
             <Button Content="Создать новый заказ" Height="30" Width="200" Margin="0,10,0,0" Click="CreateOrderButton_Click"/>
             <!-- кнопка для изменения статуса заказа -->
             <Button Content="Изменить статус заказа" Height="30" Width="200" Margin="0,10,0,0" Click="ChangeOrderStatusButton_Click"/>

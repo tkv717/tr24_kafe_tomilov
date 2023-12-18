@@ -33,7 +33,7 @@ namespace kafe
 
         private void BackToMain_Click(object sender, RoutedEventArgs e)
         {
-            // Вернуться на главное окно
+            // на главное окно
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();

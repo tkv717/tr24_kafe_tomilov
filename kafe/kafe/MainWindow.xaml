@@ -8,7 +8,7 @@
             <TextBlock Text="Кафе" FontSize="16" FontWeight="Bold"/>
         </StackPanel>
 
-        <!-- Кнопки для перехода между ролями -->
+        <!-- кнопки для перехода между ролями -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button Content="Администратор" Height="30" Width="200" Margin="0,10,0,0" Click="AdminButton_Click"/>
             <Button Content="Повар" Height="30" Width="200" Margin="0,10,0,0" Click="ChefButton_Click"/>

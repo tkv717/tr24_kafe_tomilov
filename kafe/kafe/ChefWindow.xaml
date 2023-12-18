@@ -8,13 +8,13 @@
             <TextBlock Text="Повар" FontSize="16" FontWeight="Bold"/>
         </StackPanel>
 
-        <!-- Добавьте элементы интерфейса для функциональности повара -->
+        <!-- элементы интерфейса для функциональности повара -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <!-- Пример: кнопка для просмотра заказов -->
+            <!-- кнопка для просмотра заказов -->
             <Button Content="Просмотр заказов" Height="30" Width="200" Margin="0,10,0,0" Click="ViewOrdersButton_Click"/>
-            <!-- Пример: кнопка для установки статуса заказа -->
+            <!-- кнопка для установки статуса заказа -->
             <Button Content="Изменить статус заказа" Height="30" Width="200" Margin="0,10,0,0" Click="ChangeOrderStatusButton_Click"/>
-            <!-- Кнопка для возврата на главную -->
+            <!-- для возврата на главную -->
             <Button Content="На главную" Height="30" Width="100" Margin="0,10,0,0" Click="BackToMain_Click"/>
         </StackPanel>
     </Grid>
